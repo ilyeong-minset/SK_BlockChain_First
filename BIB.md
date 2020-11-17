@@ -13,6 +13,7 @@ Nginx : 1.10.3
 IPFS : 0.7.0
 Incron : 0.5.10
 Node.js : v12.19.0
+MongoDB : v4.4.1
 ```
 
 ## Test / 테스트
