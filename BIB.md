@@ -30,12 +30,19 @@ Buyer
 ```
 ### 테스트는 Seller -> Buyer -> Seller 순서로 진행
 ```
+
+![login](https://user-images.githubusercontent.com/41175032/99395632-0f77c100-2924-11eb-842e-3499b5852608.PNG)
+[Login]
+  - Seller의
+
+![sellerr](https://user-images.githubusercontent.com/41175032/99395633-0f77c100-2924-11eb-94bf-73664e175da3.png)
 [인증서 판매 등록]
   1. Seller 계정인 Alice로 로그인
   2. 화면 우측에 '파일 선택'클릭 후 Local에 저장되어 있는 인증서(Pdf) 선택
   3. '인증서 올리기' 클릭하여 판매 등록
   4. 우측 상단의 계정 클릭 후 'Logout' 클릭
   
+![buyerr](https://user-images.githubusercontent.com/41175032/99395627-0d156700-2924-11eb-8219-dcd57e5059e5.png)  
 [인증서 구매 및 진위 확인]
   5. Buyer 계정인 Bob으로 로그인
   6. 구매하려는 인증서 Section에서 'Download(Preview)' 클릭 후 인증서 파일 확인
