@@ -1,8 +1,3 @@
-
-## Getting Started / 어떻게 시작하나요?
-
-이 곳에서 설치에 관련된 이야기를 해주시면 좋습니다.
-
 ### Prerequisites / 선행 조건
 
 ```
@@ -20,7 +15,7 @@ Incron : 0.5.10
 Node.js : v12.19.0
 ```
 
-## Running the tests / 테스트의 실행
+## Running the tests / 테스트
 
 어떻게 테스트가 이 시스템에서 돌아가는지에 대한 설명을 합니다
 
@@ -86,5 +81,5 @@ VScode 사용시 ftp-simple을 설치 후 Config를 아래와 같이 설정합�
   2. /home/azureadmin/.....해당 디렉토리 접근
   3. command 입력
     forever stop 0
-    forever start main.js
+    forever start main.js or node main.js
 ```
