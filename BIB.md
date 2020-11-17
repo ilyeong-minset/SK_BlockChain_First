@@ -31,7 +31,7 @@ Buyer
   ID : bob
   PW : Bob!234
 ```
-![sellerr](https://user-images.githubusercontent.com/41175032/99395633-0f77c100-2924-11eb-94bf-73664e175da3.png)
+![sell_1](https://user-images.githubusercontent.com/41175032/99398815-359f6000-2928-11eb-98d5-d999f83a91d4.png)
 ```
 [인증서 판매 등록]
   1. 화면 우측에 배터리 정보 입력 및 파일  후 Local에 저장되어 있는 인증서(Pdf) 선택
@@ -39,14 +39,14 @@ Buyer
   3. 업로드된 인증서는 거래전까지 'SEND'버튼 비활성화.
   4. 우측 상단의 계정 클릭 후 'Logout' 클릭
 ```
-![buyerr](https://user-images.githubusercontent.com/41175032/99395627-0d156700-2924-11eb-8219-dcd57e5059e5.png)  
+![buy_1](https://user-images.githubusercontent.com/41175032/99398812-346e3300-2928-11eb-8ec8-39db03b2bf04.png)
 ```
 [인증서 구매 및 진위 확인]
   5. 구매하려는 인증서 Section에서 'Download(Preview)' 클릭 후 인증서 파일 확인
   6. 'Buy' 클릭을 통해 인증서 진위여부 확인 및 송금
   7. 우측 상단의 계정 클릭 후 'Logout' 클릭
 ```
-![sellerr](https://user-images.githubusercontent.com/41175032/99395633-0f77c100-2924-11eb-94bf-73664e175da3.png)
+![sell_2](https://user-images.githubusercontent.com/41175032/99398818-3637f680-2928-11eb-9e21-d0de5af8d25b.png)
 ```
 [인증서 구매 및 진위 확인]
   8. My Wallet과 Recent Transaction Hitory에서 송금 받은 금액 토큰 및 이력 확인.
