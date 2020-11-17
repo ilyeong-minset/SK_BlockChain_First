@@ -49,8 +49,8 @@ Buyer
 ![sellerr](https://user-images.githubusercontent.com/41175032/99395633-0f77c100-2924-11eb-94bf-73664e175da3.png)
 ```
 [인증서 구매 및 진위 확인]
-  7.
-  7. 구매된 해당 파일은 Status에서 활성화 된 'Send' 클릭으로 코인 받기 완료
+  7. My Wallet과 Recent Transaction Hitory에서 송금 받은 금액 토큰 및 이력 확인.
+  8. 결제되어진 인증서는 활성화 된 'Send'버튼으로 인증서 양도 가능하며 양도되어진 인증서는 My Batteries에서 사라짐.
 ```
 
 ## Deployment / 배포
