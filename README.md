@@ -43,10 +43,12 @@ Battery의 인증서 파일을 저장 관리하는 분산 파일시스템.
 ### Application  
 
 * 판매자 UI
+
 ![판매자](https://user-images.githubusercontent.com/41175032/99396632-531efa80-2925-11eb-81b3-0af95b2d903c.png)
 판매자(+검증자)가 인증서를 업로드하면, 자신의 소유 배터리 리스트를 통해 확인할 수 있으며, 송금된 BPT토큰의 잔액을 확인.   
 <br/>
 * 구매자 UI
+
 ![구매자](https://user-images.githubusercontent.com/41175032/99396637-54502780-2925-11eb-8807-ff333e569004.png)
 구매자는 자신이 필요한 배터리를 구매(Buy)하고 송금한 뒤, 소유권을 이전 받음.   
 
