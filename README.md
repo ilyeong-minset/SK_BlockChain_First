@@ -1,5 +1,6 @@
 # BIB (Battery In Blockchain) 서비스
 IPFS+Blockchain 플랫폼에서 Battery 인증서의 진위여부와 거래를 제공해 주는 서비스.
+### [접속 URL Click](http://52.231.26.54:3000/)
 
 #### Basic Architecture
 
