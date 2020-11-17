@@ -19,7 +19,7 @@ MongoDB : v4.4.1
 ## Test / 테스트
 
 아래의 순서대로 테스트를 진행할 수 있습니다.
-### [접속 URL](http://52.231.26.54:3000/)
+### [접속 URL Click](http://52.231.26.54:3000/)
 
 ### 테스트는 Seller -> Buyer -> Seller 순서로 진행
 ![login](https://user-images.githubusercontent.com/41175032/99395632-0f77c100-2924-11eb-842e-3499b5852608.PNG)
