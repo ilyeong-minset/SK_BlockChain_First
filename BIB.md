@@ -6,46 +6,50 @@
 ### Prerequisites / 선행 조건
 
 ```
-ddd
+OS : Linux(Debian 10)
 ```
 
 ### Installing / 설치
 
-아래 사항들로 현 프로젝트에 관한 모듈들을 설치할 수 있습니다.
+아래 명시된 Package Install은 필수 사항 입니다.
 
 ```
-Nginx
-IPFS
-Incron
-Node.js
-express
+Nginx : 1.10.3
+IPFS : 0.7.0
+Incron : 0.5.10
+Node.js : v12.19.0
 ```
 
 ## Running the tests / 테스트의 실행
 
 어떻게 테스트가 이 시스템에서 돌아가는지에 대한 설명을 합니다
 
-### 테스트는 이런 식으로 동작합니다
-
 ```
-1. 판매자 / 구매자 별도의 계정
-2. ~~~
+Seller와 Buyer의 계정은 아래를 참고하시면 됩니다.
+Seller
+  ID : alice
+  PW : Alice!234
+Buyer
+  ID : bob
+  PW : Bob!234
 ```
-
-### 테스트는 이런 식으로 작성하시면 됩니다
-
+### 테스트는 Seller -> Buyer -> Seller 순서로 진행
 ```
-1. Public IP:3000 접속
-2. 로그인
-  2-1. 계정이 없을 경우 Create An Account
-  2-2. 현 테스트 계정
-    2-2-1. Seller : Alice / Password!234
-    2-2-2. Buyer  : Bob   / Password!234
-3. Seller 로그인 후 판매 등록 절차
-  3-1. 파일 Upload Section에서 '파일 선택' 클릭 후 Local에 인증서 파일 Upload
-  3-2. '파일 업로드' 클릭 후 '토큰 발행' 클릭
-4. Buyer 로그인 후 구매 절차
-  4-1. 구매하려는 파일 선택 후 Download 
+[인증서 판매 등록]
+  1. Seller 계정인 Alice로 로그인
+  2. 화면 우측에 '파일 선택'클릭 후 Local에 저장되어 있는 인증서(Pdf) 선택
+  3. '인증서 올리기' 클릭하여 판매 등록
+  4. 우측 상단의 계정 클릭 후 'Logout' 클릭
+  
+[인증서 구매 및 진위 확인]
+  5. Buyer 계정인 Bob으로 로그인
+  6. 구매하려는 인증서 Section에서 'Download(Preview)' 클릭 후 인증서 파일 확인
+  7. 'Buy' 클릭을 통해 인증서 진위여부 확인 및 송금
+  8. 우측 상단의 계정 클릭 후 'Logout' 클릭
+  
+[인증서 구매 및 진위 확인]
+  9. 구매된 해당 파일은 Status에서 활성화 된 'Send' 클릭으로 코인 받기 완료
+  
 ```
 
 ## Deployment / 배포
