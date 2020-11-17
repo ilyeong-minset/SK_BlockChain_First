@@ -1,17 +1,17 @@
 # BIB (Battery In Blockchain) 서비스
 IPFS+Blockchain 플랫폼에서 Battery 인증서의 진위여부와 거래를 제공해 주는 서비스.
 
-### Basic Architecture
+#### Basic Architecture
 
 <img src="images/bib_architecture.png" alt="bib_001" width="600" height="300" />
 
-- BIB   
+- BIB
 Battery 관련 정보를 등록하고, 구매자와 판매자 페이지를 통해 구매/소유권 이전과 같은 서비스를 제공하는 웹서버.
 
-- Mainnet   
+- Mainnet
 각 Battery별 NFT (ERC721기반)를 생성 / 관리하며, 거래에 따른 Token (ERC20기반) 보상 서비스를 제공하는 이더리움 블록체인.
 
-- IPFS   
+- IPFS
 Battery의 인증서 파일을 저장 관리하는 분산 파일시스템.
 
 
@@ -42,12 +42,11 @@ Battery의 인증서 파일을 저장 관리하는 분산 파일시스템.
 
 ### Application  
 
-* 판매자 UI   
+* 판매자 UI
 ![image](https://user-images.githubusercontent.com/41175032/99375378-0298a480-2907-11eb-8370-e0ed10379d40.png)
 판매자(+검증자)가 인증서를 업로드하면, 자신의 소유 배터리 리스트를 통해 확인할 수 있으며, 송금된 BPT토큰의 잔액을 확인.   
-<br/>    
-
-* 구매자 UI   
+<br/>
+* 구매자 UI
 ![image](https://user-images.githubusercontent.com/41175032/99375491-252abd80-2907-11eb-9a3b-bb91fff0c761.png)
 구매자는 자신이 필요한 배터리를 구매(Buy)하고 송금한 뒤, 소유권을 이전 받음.   
 
@@ -56,7 +55,7 @@ Battery의 인증서 파일을 저장 관리하는 분산 파일시스템.
 * Smart Contract
    - [ERC721 - Battery NFT](https://github.com/yami2254/SK_BlockChain_First/tree/master/token/NFT)
    - [ERC20 - BPT 토큰](https://github.com/yami2254/SK_BlockChain_First/tree/master/token/ERC20)
-* [Private IPFS Network](https://github.com/yami2254/SK_BlockChain_First/tree/master/makeipfs)
+* [Private IPFS Network](./IPFS.md)
 
   
 ### Contributors
