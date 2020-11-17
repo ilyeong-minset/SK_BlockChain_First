@@ -1,7 +1,8 @@
 # Prerequisites / 선행 조건
 ```
 OS : Linux(Debian 10)
-
+Language : Python
+DB : MongoDB
 ```
 
 # Installing / 설치
@@ -44,4 +45,18 @@ ipfs --version
 
 아래의 순서대로 테스트를 진행할 수 있습니다.
 
-### 테스트는 Seller -> Buyer -> Seller 순서로 진행
+### 테스트는 add_ipfs.sh -> [hash.txt 생성 -> insert_db.py] 순서로 뒷단에서 진행
+
+  - add_ipfs.sh
+    - Focusing 하고 있는 Directory에 있는 파일(업로드 된 파일)을 ipfs에 add
+    - add한 파일은 DB에 저장하기 위해 결과 Log를 hash.txt에 생성
+    - Python 명령어를 통해 inser_db.py(Hash파일 정제 후 DB에 Insert)
+  - hash.txt 예시
+    ```
+    added QmQwtt8iQxSLDLoWFkHGhMQ48ApvvAnpd5ej83WBG63333 dddddd.png
+    added QmWzW5W8ZpXL8XmY2XFsjhEjTVxZQYH18zMaWpWNZU3333 testcert1.txt
+    added QmWzW5W8ZpXL8XmY2XFsjhEjTVxZQYH18zMaWpWNZU3333 testcert3.txt
+    ```
+  - insert_db.py
+    - 해당 서버(VM)에 설치되어 있는 Mongo DB에 Connect
+    - 파일 공백 단위로 Parse 후에 Mongo DB에 Insert
