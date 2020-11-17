@@ -57,7 +57,7 @@ Battery의 인증서 파일을 저장 관리하는 분산 파일시스템.
 * Smart Contract
    - [ERC721 - Battery NFT](https://github.com/yami2254/SK_BlockChain_First/tree/master/token/NFT)
    - [ERC20 - BPT 토큰](https://github.com/yami2254/SK_BlockChain_First/tree/master/token/ERC20)
-* [Private IPFS Network](./IPFS.md)
+* [Private IPFS Network](https://github.com/yami2254/SK_BlockChain_First/tree/master/makeipfs/)
 
   
 ### Contributors
