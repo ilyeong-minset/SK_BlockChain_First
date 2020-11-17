@@ -43,10 +43,10 @@ Battery의 인증서 파일을 저장 관리하는 분산 파일시스템.
 ### Application  
 
 판매자 UI
-<img src="images/seller_page.png" alt="bib_001" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/41175032/99375378-0298a480-2907-11eb-8370-e0ed10379d40.png)
 
 구매자 UI
-<img src="images/buyer_page.png" alt="bib_001" style="zoom:50%;" />   
+![image](https://user-images.githubusercontent.com/41175032/99375491-252abd80-2907-11eb-9a3b-bb91fff0c761.png)
 
 ### 모듈 설명 (상세)
 * [BIB Web Server](./BIB.md)   
