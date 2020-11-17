@@ -45,6 +45,12 @@ ipfs --version
 
 아래의 순서대로 테스트를 진행할 수 있습니다.
 
+### Simple 테스트는 간단하게 아래 명령어로 확인 가능
+```
+ipfs add hash.txt(Any File)
+> added QmVvZ6vmoayAbkYuL58swcXixCh8b3he8aYQw3KA63333 hash.txt
+ 198 B / 198 B [===========================================================================================================] 100.00%
+```
 ### 테스트는 add_ipfs.sh -> [hash.txt 생성 -> insert_db.py] 순서로 뒷단에서 진행
 
   - add_ipfs.sh
