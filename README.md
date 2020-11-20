@@ -4,7 +4,8 @@ IPFS+Blockchain 플랫폼에서 Battery 인증서의 진위여부와 거래를 �
 
 #### Basic Architecture
 
-<img src="images/bib_architecture.png" alt="bib_001" width="600" height="300" />
+![image](https://user-images.githubusercontent.com/41175032/99755816-10307300-2b2f-11eb-8e23-55e73940a9de.png)
+
 
 - BIB
 Battery 관련 정보를 등록하고, 구매자와 판매자 페이지를 통해 구매/소유권 이전과 같은 서비스를 제공하는 웹서버.
@@ -18,7 +19,7 @@ Battery의 인증서 파일을 저장 관리하는 분산 파일시스템.
 
 ### 서비스 구조
 
-![bib_111](images/bib_service_flow.png)
+![image](https://user-images.githubusercontent.com/41175032/99755832-1c1c3500-2b2f-11eb-9950-152491c39539.png)
 
 ### 시나리오 별 구현 내용   
 * S1. EV Battery의 핵심 데이터를 바탕으로 Battery 등급 판정   
